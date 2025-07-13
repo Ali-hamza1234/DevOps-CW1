@@ -10,7 +10,7 @@ def decimal_to_hex(decimal_value):
     while num != 0:
         rem = num % 16
         hexadecimal = hex_chars[rem] + hexadecimal
-        num //= 16
+        num //= 16            
 
     print(f"Hexadecimal representation is: {hexadecimal}")
     return hexadecimal
@@ -23,4 +23,5 @@ if __name__ == "__main__":
         except ValueError:
             print("Please provide a valid integer.")
     else:
-        print("Usage: python script.py <decimal_number>")
+        print("Usage: python script.py <decimal_number>") 
+# Edited for webhook test
